@@ -295,13 +295,14 @@
         android:layout_toEndOf="@+id/button20"
         android:layout_toRightOf="@+id/button20"
         android:text="U" />
+
     <Button
         android:id="@+id/button22"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignLeft="@+id/button15"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button15"
+        android:layout_below="@+id/button18"
+        android:layout_toLeftOf="@+id/button23"
+        android:layout_toStartOf="@+id/button23"
         android:text="V" />
     <Button
         android:id="@+id/button23"
@@ -311,11 +312,12 @@
         android:layout_toEndOf="@+id/button15"
         android:layout_toRightOf="@+id/button15"
         android:text="W" />
+
     <Button
         android:id="@+id/button24"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/button18"
         android:layout_toLeftOf="@+id/button11"
         android:layout_toStartOf="@+id/button11"
         android:text="X" />
@@ -324,18 +326,19 @@
         android:id="@+id/button25"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/button17"
-        android:layout_toRightOf="@+id/button17"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignStart="@+id/button18"
+        android:layout_below="@+id/button18"
         android:text="y" />
 
     <Button
         android:id="@+id/button26"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/button18"
-        android:layout_toRightOf="@+id/button18"
+        android:layout_alignBaseline="@+id/button25"
+        android:layout_alignBottom="@+id/button25"
+        android:layout_toEndOf="@+id/button25"
+        android:layout_toRightOf="@+id/button25"
         android:text="z" />
     <TextView
         android:layout_width="wrap_content"
